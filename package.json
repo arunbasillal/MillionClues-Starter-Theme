@@ -1,0 +1,21 @@
+{
+  "name": "firerooster",
+  "version": "1.0.0",
+  "description": "Custom Theme for Kuttappi.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kuttappi",
+    "millionclues",
+    "responsive",
+    "bootstrap4"
+  ],
+  "author": "Arun Basil Lal",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
