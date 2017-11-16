@@ -8,12 +8,13 @@ var browserSyncWatchFiles = [
     './template-parts/*.php',
 	'*.php',
 	'*.css',
+	'./assets/js/*.js',
 ];
 
 // browser-sync options
 // see: https://www.browsersync.io/docs/options/
 var browserSyncOptions = {
-    proxy: "localhost/kuttappi/",
+    proxy: "localhost/mysite/", //<-- Edit me
     notify: false
 };
 
