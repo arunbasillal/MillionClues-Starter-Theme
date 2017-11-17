@@ -7,8 +7,9 @@ if ( !defined('ABSPATH') ) exit;
  * 
  * @since 1.0
  */
-if (!defined('MCS_PREFIX_BASE_PATH')) 	define( 'MCS_PREFIX_BASE_PATH'	, get_template_directory_uri() 	. '/');
 if (!defined('MCS_PREFIX_VERSION')) 	define( 'MCS_PREFIX_VERSION'	, '1.0' );
+if (!defined('MCS_PREFIX_BASE_PATH')) 	define( 'MCS_PREFIX_BASE_PATH'	, get_template_directory_uri() 	. '/');				// Parent theme folder
+if (!defined('MCS_PREFIX_IMG_PATH')) 	define( 'MCS_PREFIX_IMG_PATH'	, get_template_directory_uri() 	. '/assets/img/'); 	// Parent theme images folder
 
 /**
  * Theme basics
