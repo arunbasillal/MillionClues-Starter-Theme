@@ -21,6 +21,6 @@ var browserSyncOptions = {
 // Run:
 // gulp browser-sync
 // Starts browser-sync task for starting the server.
-gulp.task('browser-sync', function() {
+gulp.task('bs', function() {
     browserSync.init(browserSyncWatchFiles, browserSyncOptions);
 });

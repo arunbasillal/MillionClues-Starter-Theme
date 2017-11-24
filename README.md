@@ -19,5 +19,5 @@ Build
 =====
 - Open theme directory in Terminal
 - Run `npm install`
-- Edit gulpfile.js and change proxy to the local install.
-- Run `gulp browser-sync`
+- Edit gulpfile.js and change proxy to the local install. (Look for the line with comment 'Edit me')
+- Run `gulp bs`
