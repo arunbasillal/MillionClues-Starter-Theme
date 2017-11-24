@@ -10,3 +10,54 @@
  Tags:			responsive-layout, accessibility-ready, bootstrap, starter
  Text Domain:	mcstextdomain
 */
+
+/*-------------------------------------------/
+/----------------- Reference ----------------/
+/--------------------------------------------/
+
+--- Colors
+Brand			:
+Brand Contrast	:
+Brand Hover		:
+
+--- Fonts
+font-family:
+font-family:
+
+/-------------------------------------------*/
+
+/*-------------------------------------------/
+/------------------- Index ------------------/
+/--------------------------------------------/
+
+- Typography
+- Utilities
+- Basics
+- Header
+
+/-------------------------------------------*/
+
+/*------------------ Typography -----------------*/
+
+/*------------------ Utilities -----------------*/
+
+/*------------------ Basics -----------------*/
+
+body {
+	
+}
+
+a {
+	transition: all 0.5s ease;
+}
+
+/*------------------ Header -----------------*/
+
+
+@media (max-width: 767px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
