@@ -42,6 +42,9 @@ function mcs_prefixload_css_and_js() {
 	// Load style.css
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
 	
+	// Load Popper JS - Enable for Modal windows and tooltips
+	// wp_enqueue_script( 'popper-js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js', array('jquery'), null, true);
+	
 	// Load Boostrap JS
 	wp_enqueue_script( 'bootstrap-js', MCS_PREFIX_BASE_PATH . '/includes/bootstrap4/js/bootstrap.min.js', array('jquery'), MCS_PREFIX_VERSION, true);
 	

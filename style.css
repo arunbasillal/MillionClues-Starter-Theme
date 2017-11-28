@@ -53,6 +53,16 @@ a {
 
 /*------------------ Header -----------------*/
 
+.logo-link {	
+	max-width: 351px;	/* width of the logo img */
+	margin-right: -60px;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+}
+
 
 @media (max-width: 767px) {
 	

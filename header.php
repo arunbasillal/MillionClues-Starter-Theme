@@ -9,25 +9,31 @@
 
 <body <?php body_class(); ?>>
 
-<div class="container-fluid">
-	
-	<!-- Main Menu Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  
-	  <a class="navbar-brand" href="<?php bloginfo('wpurl'); ?>">Navbar</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	  </button>
-	  
-	  <!-- The WordPress Primary Menu -->
-	  <?php wp_nav_menu(
-		array(
-		  'theme_location'	=> 'main-menu',
-		  'menu_class'		=> 'navbar-nav ml-auto w-100 justify-content-end',
-		  'container_class'	=> 'collapse navbar-collapse',
-		  'container_id'    => 'navbarNav',
-		)
-	  ); ?>
-	</nav>
-	
-</div>
+<section id="header">
+	<div class="container px-0">
+		
+		<!-- Main Menu Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
+		  
+			<a class="navbar-brand logo-link w-75 pr-2 pr-sm-0" href="<?php bloginfo('wpurl'); ?>">
+				<img class="logo" src="" alt="LOGO">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- The WordPress Primary Menu -->
+			<?php wp_nav_menu(
+				array(
+				  'theme_location'	=> 'main-menu',
+				  'menu_class'		=> 'navbar-nav ml-auto justify-content-end text-center',
+				  'container_class'	=> 'collapse navbar-collapse',
+				  'container_id'    => 'navbarNav',
+				)
+			); ?>
+			
+		</nav>
+		
+	</div>
+</section>
