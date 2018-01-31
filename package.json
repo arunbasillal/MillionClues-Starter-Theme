@@ -1,7 +1,7 @@
 {
-  "name": "firerooster",
+  "name": "millionclues",
   "version": "1.0.0",
-  "description": "Custom Theme for Kuttappi.com",
+  "description": "A starter theme for quick WordPress theme development.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
