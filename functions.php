@@ -37,16 +37,16 @@ if (!defined('MCS_PREFIX_IMG_PATH')) 	define( 'MCS_PREFIX_IMG_PATH'	, get_templa
  */
 function mcs_prefixload_css_and_js() {
     // Load Boostrap CSS
-	wp_enqueue_style( 'bootstrap-css', MCS_PREFIX_BASE_PATH . '/includes/bootstrap4/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap-css', MCS_PREFIX_BASE_PATH . '/includes/bootstrap4/css/bootstrap.min.css', array(), null, 'all' );
 
 	// Load style.css
-	wp_enqueue_style( 'style', get_stylesheet_uri() );
+	wp_enqueue_style( 'style', get_stylesheet_uri(), array(), MCS_PREFIX_VERSION, 'all' );
 	
 	// Load Popper JS - Enable for Modal windows and tooltips
 	// wp_enqueue_script( 'popper-js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js', array('jquery'), null, true);
 	
 	// Load Boostrap JS
-	wp_enqueue_script( 'bootstrap-js', MCS_PREFIX_BASE_PATH . '/includes/bootstrap4/js/bootstrap.min.js', array('jquery'), MCS_PREFIX_VERSION, true);
+	wp_enqueue_script( 'bootstrap-js', MCS_PREFIX_BASE_PATH . '/includes/bootstrap4/js/bootstrap.min.js', array('jquery'), null, true);
 	
 	// Load Google Fonts
 	// wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700', array(), null, 'all');
