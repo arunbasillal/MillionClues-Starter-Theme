@@ -13,7 +13,7 @@
 	<div class="container px-0">
 		
 		<!-- Main Menu Navigation -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
+		<nav class="navbar navbar-expand-lg navbar-light p-4">
 		  
 			<a class="navbar-brand logo-link w-75 pr-2 pr-sm-0" href="<?php bloginfo('wpurl'); ?>">
 				<img class="logo" src="" alt="LOGO">
